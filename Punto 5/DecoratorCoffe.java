@@ -30,28 +30,7 @@ public class DecoratorCoffe
     Beverage beverage5 = new FigCover();
     System.out.println("Advanced: "+ beverage.getDescription()+" with " +beverage2.getDescription()+", " +beverage4.getDescription()+" and " +beverage5.getDescription());
 
-/*
-    Beverage beverage4 = new HouseBlend();
 
-	
-
-	beverage4 = new Mocha(beverage4);
-
-	
-
-	System.out.println("Basic: "+beverage4.getDescription());
-
-
-    Beverage beverage5 = new HouseBlend();
-
-	
-
-	beverage5 = new Mocha(beverage5);
-
-	
-
-	System.out.println("Advanced: "+beverage5.getDescription());
-*/
     }
 
 }
