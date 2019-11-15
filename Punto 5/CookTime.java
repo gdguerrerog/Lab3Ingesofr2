@@ -1,40 +1,15 @@
 
-
-
-public class SteamedMilk extends Beverage
+public class CookTime extends Beverage
 
 {
 
-    private Beverage beverage;
-
-
-
-    public SteamedMilk(Beverage beverage)
+    public CookTime()
 
     {
 
-	this.beverage = beverage;
+	description = "cook time > 2 min";
 
     }
 
-
-
-    public String getDescription()
-
-    {
-
-	return beverage.getDescription() + ", steamed Milk";
-
-    }
-
-
-
-    public double cost()
-
-    {
-
-	return 0.10 + beverage.cost();
-
-    }
 
 }

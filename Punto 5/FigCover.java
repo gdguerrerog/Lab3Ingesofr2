@@ -1,24 +1,16 @@
 
-public class HouseBlend extends Beverage
+public class FigCover extends Beverage
 
 {
 
-    public HouseBlend()
+    public FigCover()
 
     {
 
-	description = "House Blend";
+	description = "a figure in the cover";
 
     }
 
 
-
-    public double cost()
-
-    {
-
-	return 0.89;
-
-    }
 
 }

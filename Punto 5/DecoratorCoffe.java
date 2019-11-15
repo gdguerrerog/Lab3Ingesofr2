@@ -7,34 +7,30 @@ public class DecoratorCoffe
 
     {
 
-	Beverage beverage = new HouseBlend();
+	Beverage beverage = new Coffee();
 
 	System.out.println("Simple: "+ beverage.getDescription() );
 
 
 
-	Beverage beverage2 = new HouseBlend();
+	Beverage beverage2 = new Milk();
 
-	beverage2 = new Mocha(beverage2);
-
-	beverage2 = new Mocha(beverage2);
-
-	
-
-	System.out.println("Elementary: "+beverage2.getDescription() );
+    System.out.println("Elementary: "+ beverage.getDescription()+" with " +beverage2.getDescription() );
 
 
 
-	Beverage beverage3 = new HouseBlend();
+	Beverage beverage3 = new CookTime();
 
-	
+	System.out.println("Sophisticated: "+ beverage.getDescription()+" with " +beverage2.getDescription()+" and " +beverage3.getDescription());
 
-	beverage3 = new Mocha(beverage3);
+    
+    System.out.println("Elementary: "+ beverage.getDescription()+" without " +beverage2.getDescription()+" and " +beverage3.getDescription() );
 
-	
+    Beverage beverage4 = new Mocha();
+    Beverage beverage5 = new FigCover();
+    System.out.println("Advanced: "+ beverage.getDescription()+" with " +beverage2.getDescription()+", " +beverage4.getDescription()+" and " +beverage5.getDescription());
 
-	System.out.println("Sophisticated: "+beverage3.getDescription());
-
+/*
     Beverage beverage4 = new HouseBlend();
 
 	
@@ -50,12 +46,12 @@ public class DecoratorCoffe
 
 	
 
-	beverage4 = new Mocha(beverage5);
+	beverage5 = new Mocha(beverage5);
 
 	
 
 	System.out.println("Advanced: "+beverage5.getDescription());
-
+*/
     }
 
 }

@@ -1,38 +1,14 @@
-
 public class Mocha extends Beverage
 
 {
 
-    private Beverage beverage;
-
-
-
-    public Mocha(Beverage beverage)
+    public Mocha()
 
     {
 
-	this.beverage = beverage;
+	description = "Mocha";
 
     }
 
-
-
-    public String getDescription()
-
-    {
-
-	return beverage.getDescription() + ", Mocha";
-
-    }
-
-
-
-    public double cost()
-
-    {
-
-	return 0.20 + beverage.cost();
-
-    }
 
 }
