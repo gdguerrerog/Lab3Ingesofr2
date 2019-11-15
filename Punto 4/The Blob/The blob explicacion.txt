@@ -1,0 +1,2 @@
+The blob
+En este caso encontramos la clase Main.java que contiene un monton de funciones y de atributos, con esto reflejamos una antipatron de diseño, el problema radica en no crear ningun tipo de relacion, en este caso se deberia separar las funciones y atributos en sus respectivas clases

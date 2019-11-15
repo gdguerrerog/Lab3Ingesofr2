@@ -1,0 +1,1 @@
+En este basico ejemplo podemos observar como algo tan sencillo como una calculadora es programada con un anti patron, se caracteriza por tener clases que no hacen referencia a algun objeto, si no que van mas enfocadas a ser una función
