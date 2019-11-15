@@ -26,9 +26,11 @@ public class DecoratorCoffe
     
     System.out.println("Elementary: "+ beverage.getDescription()+" without " +beverage2.getDescription()+" and " +beverage3.getDescription() );
 
+	    
     Beverage beverage4 = new Mocha();
     Beverage beverage5 = new FigCover();
-    System.out.println("Advanced: "+ beverage.getDescription()+" with " +beverage2.getDescription()+", " +beverage4.getDescription()+" and " +beverage5.getDescription());
+	    
+    System.out.println("Advanced: "+ beverage.getDescription()+" with " +beverage2.getDescription()+ ", " +beverage4.getDescription()+" and " +beverage5.getDescription());
 
 
     }
